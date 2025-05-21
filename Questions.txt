@@ -1,0 +1,385 @@
+What is Machine Learning
+what are different types of Machine Learning Algorithms
+Give me Applications of Machine Learning:
+What are the challenges in Machine Learning:
+What is supervised learning
+What is unsupervised learning?
+What is reinforcement learning?
+What are the differences between AI, ML, and deep learning?
+What are common data preprocessing techniques?
+What is feature engineering?
+What are the different methods to handle missing data?
+What is the bias-variance tradeoff?
+What is overfitting?
+What is underfitting?
+How does cross-validation work?
+What is the purpose of a confusion matrix?
+What are the differences in precision, recall, and F1 score?
+What is AUC-ROC?
+What is a neural network?
+What is a convolutional neural network (CNN)?
+What is a recurrent neural network (RNN)?
+What is a generative adversarial network (GAN)?
+What is transfer learning?
+What is decision trees?
+What is random forest?
+What is gradient boosting?
+What is XGBoost?
+What is support vector machines (SVM)?
+What is k-nearest neighbors (KNN)?
+What is linear regression?
+What is logistic regression?
+What is loss function?
+What is the role of an optimizer in ML?
+What is backpropagation?
+What is the role of activation functions?
+What is dropout in neural networks?
+What is regularization?
+What is L1 and L2 regularization?
+What is learning rate?
+What is epoch?
+What is batch size?
+What is kernel in SVM?
+What is principal component analysis (PCA)?
+What is k-means clustering?
+What is hierarchical clustering?
+What is dimensionality reduction?
+What is word embeddings?
+What is natural language processing (NLP)?
+What is computer vision?
+What is hyperparameters?
+What is hyperparameter tuning?
+What is grid search?
+What is random search?
+What is Bayesian optimization?
+What is concept of time series forecasting?
+What is common challenges in ML?
+What is imbalanced dataset?
+What is ensemble methods?
+What is bagging?
+What is boosting?
+What is stacking?
+What is recommender system?
+What is collaborative filtering?
+What is content-based filtering?
+What is semi-supervised learning?
+What is few-shot learning?
+What is meta-learning?
+What is zero-shot learning?
+What is federated learning?
+What is explainable AI?
+What is ethical concerns in ML?
+What are importance of data in ML?
+What is augmentation?
+What is active learning?
+What is unsupervised pretraining?
+What is big data?
+What is role of ML in healthcare?
+What is predictive analytics?
+What is anomaly detection?
+What is outlier detection?
+What is curse of dimensionality?
+What is the difference between shallow and deep learning?
+What is generative models?
+What is autoencoder?
+What is Markov decision process (MDP)?
+What are common ML frameworks?
+How do GPUs help in ML?
+What is distributed training?
+What is model interpretability?
+What is pipeline in ML?
+What is model deployment?
+What is real-time ML?
+What are the different types of supervised learning algorithms?
+What are the different types of unsupervised learning algorithms?
+What is the difference between parametric and non-parametric algorithms?
+How does dimensionality reduction improve model performance?
+What are the types of feature scaling techniques?
+What is the difference between normalization and standardization?
+How does one-hot encoding work?
+What is target encoding, and when is it used?
+What is the difference between a shallow neural network and a deep neural network?
+What are vanishing and exploding gradients?
+What is the purpose of batch normalization?
+What is early stopping in neural networks?
+How do recurrent neural networks (RNNs) handle sequential data?
+What is the difference between RNN and LSTM?
+How do Gated Recurrent Units (GRUs) improve RNNs?
+What are transformers in ML?
+How does the attention mechanism work in transformers?
+What is a language model in NLP?
+How do pre-trained models like BERT and GPT work?
+What is tokenization in NLP?
+What is lemmatization, and how does it differ from stemming?
+What is word2vec, and how is it used?
+How does GloVe differ from word2vec?
+What is sequence-to-sequence modeling?
+What is a siamese network?
+What are the steps in developing a custom ML model?
+What is an end-to-end ML pipeline?
+What are the common techniques for handling imbalanced datasets?
+What is the role of SMOTE in handling imbalanced datasets?
+What are evaluation metrics for regression problems?
+What are evaluation metrics for classification problems?
+What is the Matthews Correlation Coefficient (MCC)?
+How does transfer learning benefit small datasets?
+What is a pretext task in unsupervised learning?
+What is the difference between bagging and boosting?
+How does AdaBoost work?
+How does CatBoost handle categorical data?
+What are monotonic constraints in gradient boosting?
+What is the difference between grid search and random search for hyperparameter tuning?
+What is the role of cross-validation in hyperparameter tuning?
+What are some examples of Bayesian optimization tools?
+What are the key differences between Python and R for ML?
+What is a rolling window in time series analysis?
+How does seasonality affect time series forecasting?
+What is the difference between anomaly detection and outlier detection?
+How does ML handle non-stationary time series data?
+What are common challenges in deploying ML models?
+What are adversarial attacks in ML?
+How do you defend against adversarial attacks?
+What are SHAP and LIME for model interpretability?
+How does transfer learning differ from fine-tuning?
+What is the difference between static and dynamic word embeddings?
+How does reinforcement learning apply to robotics?
+What is the difference between model-based and model-free RL?
+What are reward functions in reinforcement learning?
+How do Q-learning and Deep Q-learning differ?
+What is the Markov property in MDPs?
+What are policy-based and value-based RL methods?
+How does federated learning ensure data privacy?
+What is the difference between centralized and decentralized ML?
+What is synthetic data, and how is it used?
+What is the importance of transferability in ML models?
+How does explainable AI enhance trust in ML systems?
+What are the steps for debugging a poorly performing ML model?
+What is multi-task learning, and how does it work?
+What is self-supervised learning?
+What is the role of entropy in decision tree splitting?
+How does pruning improve decision trees?
+What is bag-of-words in NLP?
+How does TF-IDF differ from bag-of-words?
+What is cosine similarity, and where is it used?
+What are the key challenges in real-time ML?
+What is continual learning in ML?
+How do ensemble methods improve model accuracy?
+What is the difference between a weak learner and a strong learner?
+How do collaborative and content-based filtering work together in hybrid recommender systems?
+What is a knowledge graph in ML?
+How is graph neural networks (GNN) used in ML?
+What are common pitfalls in training deep learning models?
+How does dropout prevent overfitting?
+What is a generative model versus a discriminative model?
+How does data augmentation enhance ML models?
+What is the difference between online learning and batch learning?
+What is reinforcement learning in video games?
+What are common types of ML losses (e.g., hinge loss, huber loss)?
+How does a hierarchical clustering dendrogram work?
+What is the silhouette score in clustering?
+How does an autoencoder reconstruct data?
+What are the steps for creating a custom neural network from scratch?
+What is the significance of activation functions in deep learning?
+How does convolution work in CNNs?
+What is the difference between stride and padding in CNNs?
+What are the steps for deploying ML models in production?
+How does edge computing relate to ML deployment?
+What is semi-supervised clustering?
+How does multi-label classification work?
+What is ordinal regression?
+How does the perceptron algorithm work?
+What is a Boltzmann machine?
+What is stochastic gradient descent?
+How do momentum-based optimizers improve convergence?
+What is the role of a learning rate scheduler?
+How does dropout improve generalization in neural networks?
+What are adversarial examples in ML?
+What is the difference between feature selection and feature extraction?
+How does latent semantic analysis (LSA) work in NLP?
+What is Latent Dirichlet Allocation (LDA)?
+How does topic modeling work?
+What are embeddings in recommendation systems?
+How does collaborative filtering differ from content-based filtering?
+What are similarity measures in ML (e.g., Jaccard, Cosine)?
+How is t-SNE used for visualization?
+What is UMAP, and how does it differ from t-SNE?
+How do word clouds help in text analysis?
+What is the importance of feature scaling in ML models?
+What is min-max scaling, and when is it used?
+How does Z-score normalization work?
+What are pipelines in scikit-learn?
+What is a grid search CV?
+What is a validation curve?
+What is early stopping, and how does it prevent overfitting?
+How do decision boundaries differ in various classifiers?
+What is a separable hyperplane in SVM?
+How does a sigmoid kernel work?
+How does an RBF kernel enhance SVM?
+What is a soft-margin SVM?
+How does the Elbow method identify the optimal number of clusters?
+How does the Silhouette score evaluate clustering?
+What is dendrogram in hierarchical clustering?
+How does Gaussian mixture modeling (GMM) work?
+What are variational autoencoders (VAEs)?
+How does a GAN generate realistic data?
+What is the Wasserstein loss in GANs?
+How does style transfer work in computer vision?
+What is transfer learning for object detection?
+What are non-maximum suppression techniques in object detection?
+What is a bounding box regression?
+What is semantic segmentation?
+What is instance segmentation?
+How do RCNN and Faster RCNN differ?
+How does YOLO (You Only Look Once) work?
+What is MobileNet in ML?
+What are lightweight ML models?
+How does pruning optimize neural networks?
+What is quantization in ML models?
+What are edge-based ML models?
+How does federated averaging work?
+What are the benefits of on-device ML?
+What is model distillation?
+How does data augmentation improve generalization?
+What are elastic transformations in image augmentation?
+How does CutMix enhance training data?
+What is Mixup in augmentation?
+How does synthetic oversampling work?
+What is the role of class weights in handling imbalanced data?
+What is data leakage in ML?
+How does active learning prioritize unlabeled data?
+What is uncertainty sampling in active learning?
+How does pool-based sampling work?
+What is ensemble diversity in bagging?
+How do base learners differ in ensemble methods?
+What is a soft voting classifier?
+How does hard voting differ from soft voting?
+What is AdaBoost?
+How does feature bagging differ from instance bagging?
+How does time-series decomposition work?
+What is the difference between trend and seasonality?
+How does exponential smoothing forecast trends?
+What is the Holt-Winters method?
+What is the ARIMA model?
+How does SARIMA extend ARIMA?
+What is stationarity in time series?
+How does differencing achieve stationarity?
+What are lag features in time-series analysis?
+What is vector autoregression (VAR)?
+How do residuals evaluate a model in regression analysis?
+What is the purpose of leverage in regression?
+How does multicollinearity affect regression?
+What is ridge regression?
+How does lasso regression perform variable selection?
+What is Elastic Net?
+How does Bayesian Ridge Regression work?
+What are the differences between heteroscedasticity and homoscedasticity?
+What is the Durbin-Watson test?
+What is a hierarchical Bayesian model?
+How does bootstrapping work in ML?
+What is bag-of-visual-words in computer vision?
+What are pixel-wise losses in segmentation models?
+How does guided backpropagation explain CNN predictions?
+What is the role of a CAM (Class Activation Map)?
+What is integrated gradients in interpretability?
+How does gradient-free optimization differ from gradient-based methods?
+How do Monte Carlo methods apply to reinforcement learning?
+What are adversarial validation techniques in ML?
+How does label smoothing improve classification models?
+What is the role of the hinge loss in SVM?
+How does the curse of highly imbalanced multi-label datasets differ from single-label datasets?
+What are the challenges of using reinforcement learning in dynamic environments?
+How does temporal difference (TD) learning work in reinforcement learning?
+What is multi-view learning, and how is it implemented in ML?
+What is the difference between co-training and co-learning?
+How does matrix factorization work in collaborative filtering?
+What are the key considerations when using embeddings for categorical features?
+How does the margin in margin-based loss functions impact model training?
+What is the Wasserstein distance, and how is it used in ML?
+What are zero-inflated models, and where are they applied?
+How does the Fourier Transform apply to signal processing in ML?
+What is the difference between hard attention and soft attention in deep learning?
+How do skip connections in neural networks improve gradient flow?
+What is the concept of weight tying in sequence-to-sequence models?
+How does mixup augmentation work for textual data?
+What are attention heads, and why are they important in transformer models?
+What are the differences between task-specific and task-agnostic learning?
+How does contrastive loss work in self-supervised learning?
+What is the impact of data resolution in computer vision models?
+How do you choose between online and offline evaluation metrics in recommender systems?
+What is the role of input pipelines in distributed machine learning?
+What is the significance of variance inflation factor (VIF) in feature selection?
+What is the difference between entropy-based and gini-based splitting in decision trees?
+How does ensemble stacking differ from ensemble blending?
+What is the relationship between transfer learning and domain adaptation?
+What is instance segmentation, and how does it differ from panoptic segmentation?
+How does the No Free Lunch theorem apply to ML algorithm selection?
+What are synthetic gradients, and how do they enable decoupled neural network training?
+How do you handle data skewness in regression models?
+What is incremental PCA, and when is it preferable over traditional PCA?
+How does locality-sensitive hashing (LSH) work for approximate nearest neighbors?
+What is adversarial machine learning, and how does it affect model robustness?
+How do you define concept drift in ML, and how is it managed?
+What is online anomaly detection, and how does it differ from offline methods?
+How do generative models differ from discriminative models in their training objectives?
+What is temporal fusion transformers (TFT), and how is it used in time-series forecasting?
+How does the gradient penalty regularizer help stabilize GANs?
+What is active forgetting in continual learning?
+What are the differences between dynamic and static computational graphs in deep learning?
+What is functional programming's role in machine learning pipelines?
+What is differential privacy in machine learning?
+How does the learning rate warm-up technique improve training stability?
+What is the role of teacher forcing in sequence-to-sequence training?
+How does reinforcement learning apply to autonomous driving?
+What are structured prediction tasks, and how are they approached in ML?
+What is the role of disentangled representations in generative models?
+How does progressive resizing improve generalization in image models?
+What is curriculum learning, and how does it improve training in ML?
+How does contrastive predictive coding (CPC) work in self-supervised learning?
+What is the role of positional encoding in transformer models?
+How does the Lottery Ticket Hypothesis apply to neural network pruning?
+What is the difference between batch-wise and layer-wise normalization?
+How does quantile regression work in ML?
+What are ordinal categorical features, and how are they encoded in ML?
+How does teacher-student knowledge distillation work in model compression?
+What is meta-reinforcement learning, and how does it differ from traditional RL?
+How does feature hashing handle high-cardinality categorical data?
+What is spectral clustering, and how is it different from k-means?
+How do spike-and-slab priors work in Bayesian ML?
+What are capsule networks, and how do they differ from CNNs?
+What is the purpose of graph embeddings in graph neural networks (GNNs)?
+How does hierarchical attention improve NLP models?
+What is structured sparsity, and how does it optimize neural networks?
+How does personalized federated learning differ from traditional federated learning?
+What are universal function approximators in the context of neural networks?
+What is the difference between full batch and mini-batch gradient descent?
+How do variational methods handle uncertainty in ML models?
+What is the relationship between Markov Chains and Hidden Markov Models?
+How do you design loss functions for imbalanced regression tasks?
+What is the purpose of an auto-regressive model in time series forecasting?
+How does joint embedding architecture work in multimodal learning?
+What are the differences between additive and multiplicative attention mechanisms?
+How does reinforcement learning handle sparse reward environments?
+What is elastic net regularization, and when is it used?
+How does the AdamW optimizer differ from Adam?
+What is manifold learning, and how does it relate to dimensionality reduction?
+How does data stream mining differ from traditional ML?
+What are the challenges of multi-objective optimization in ML?
+How does knowledge graph completion improve recommender systems?
+What is the difference between convex and non-convex optimization in ML?
+How does neural architecture search (NAS) optimize model design?
+What is the role of synthetic data in low-data regimes?
+How does one implement few-shot learning using prototypical networks?
+How do graph-based approaches enhance semi-supervised learning?
+What are the differences between hierarchical and flat clustering?
+How does multi-hop reasoning work in graph-based ML?
+What are the key challenges in scaling ML models to billions of parameters?
+How does Bayesian optimization differ from evolutionary algorithms for hyperparameter tuning?
+What are continuous action spaces in RL, and how are they handled?
+How does dynamic time warping (DTW) align time series data?
+How does the choice of activation function affect model capacity?
+What is the concept of label flipping in adversarial ML?
+How does a transformer decoder differ from an encoder?
+What are the differences between sequence tagging and sequence classification?
+How does collaborative filtering handle cold-start problems?
+What are the differences between deterministic and stochastic policy gradients in RL?
+How does causal inference apply to machine learning models?

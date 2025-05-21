@@ -5,13 +5,13 @@ import psycopg2
 import torch
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from transformers import T5ForConditionalGeneration, T5Tokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from flask import Flask, render_template, request, jsonify
 from sklearn.cluster import KMeans
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
-from sklearn.naive_bayes import GaussianNB  # Import Naive Bayes for classification
+from sklearn.naive_bayes import GaussianNB
 
 # Initialize the Sentence Transformer model for embeddings
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
@@ -22,16 +22,15 @@ conn = psycopg2.connect(
     port="5432",
     dbname="mydatabase",
     user="postgres",
-    password="y@pradeep"
+    password="1234pradeep"
 )
 cursor = conn.cursor()
 
-# Load pre-trained T5 model and tokenizer for summarization
-model_name = "google/flan-t5-small"
-tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name).to("cuda" if torch.cuda.is_available() else "cpu")
+model_name = "gpt2"  # Smallest version
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name).to("cuda" if torch.cuda.is_available() else "cpu")
 
-
+tokenizer.pad_token = tokenizer.eos_token
 # Helper Functions
 def normalize_embedding(embedding):
     """Normalize the embedding to unit length."""
@@ -138,18 +137,20 @@ def retrieve_answer(query, top_k=1, relevance_threshold=0.5):
 
 
 def summarize_text_with_answer(answer, query):
-    """Summarize the full answer with context."""
     try:
-        input_text = f"query: {query.strip()} context: {answer.strip()}"
+        input_text = f"Summarize this: {query.strip()} {answer.strip()}"
         inputs = tokenizer(input_text, return_tensors="pt", max_length=512, truncation=True).to(model.device)
         outputs = model.generate(
-            inputs.input_ids, max_length=200, min_length=50, length_penalty=1.0, num_beams=5
+            inputs.input_ids, 
+            max_length=150,  # Shorter for GPT-2
+            num_beams=2,    # Fewer beams for speed
+            early_stopping=True
         )
         summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
         return summary if summary.endswith('.') else summary + '.'
     except Exception as e:
-        print(f"Error summarizing text: {e}")
-        return "Error in summarization."
+        print(f"Error summarizing: {e}")
+        return "Summary error."
 
 
 def update_question_frequency(question):
@@ -383,7 +384,7 @@ if __name__ == "__main__":
     check_and_create_tables()  # Ensure tables exist
     question_file = "Questions.txt"
     answer_file = "Answer.txt"
-    #load_questions_answers_from_files(question_file, answer_file)
+    load_questions_answers_from_files(question_file, answer_file)
     cluster_existing_data()  # Apply clustering
     classify_feedback_types()  # Classify feedback using Naive Bayes
     apply_linear_regression()  # Train regression model
