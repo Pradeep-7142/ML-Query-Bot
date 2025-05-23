@@ -18,9 +18,9 @@ embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Database Connection
 conn = psycopg2.connect(
-    host="localhost",
+    host="172.18.61.215",
     port="5432",
-    dbname="mydatabase",
+    dbname="mtdatabase",
     user="postgres",
     password="1234pradeep"
 )
